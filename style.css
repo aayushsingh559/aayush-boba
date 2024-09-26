@@ -1,3 +1,26 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .heading {
-    color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 70px;
+}
+
+.body {
+    background-color: gray;
+}
+
+.image {
+    width: 400px;
+    border-radius: 40px;
+}
+
+.words {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
